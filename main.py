@@ -1,5 +1,5 @@
 import random
 dlina = 11
-simvole="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+simvole="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890"
 password = "".join(random.sample(simvole,dlina))
 print(password)
